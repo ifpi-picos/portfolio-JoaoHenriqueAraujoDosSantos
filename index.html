@@ -4,60 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeira Página</title>
-    <link rel="shortcut icon" href="img/icon-html.ico" type="icon tag HTML">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/icon-html.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Perfil Profissional</title>
 </head>
 <body>
-    <header>
-        <h1>Meu perfil profissional</h1>
+    <header>    
+        <img src="img/foto-p.png" alt="João Araújo" id="avatar">
+        <h1 id="titulo">João Henrique Araújo dos Santos</h1>
+        <p>Um resumo sobre minhas experiências, estudos e ambições acadêmicas e profissionais.</p>
     </header>
-    <main>
-        <section>
-            <h2>Sobre mim:</h2>
-            <div class="paragrafo">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam consequatur laudantium necessitatibus dignissimos illum reiciendis quae enim, omnis reprehenderit nulla labore tenetur molestias ex cupiditate quam incidunt molestiae consectetur sit.</p>
-            </div>
-        </section>
-        <section>
-            <h2>Formação Acadêmica</h2>
-            <ul>
-                <li>Bacharelado em Engenharia Civil
-                </li>
-                <br>
-                <li>Tecnologia em Análise e Desenvolvimento de Sistemas</li>
-                    <ul>
-                        <li>Atualmente cursando o 3º período</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Linguagens em Estudo</h2>
-            <ul>
-                <li>Atualmente:</li>
-                <ul>
-                    <li>Python</li>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <br>
-                </ul>
-                <li>Para Estudos Futuros:</li>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>Firebase</li>
-                    <li>Java</li>
-                </ul>
-            </ul>
-            
-        </section>
-    </main>
     <aside>
-        <p>Links pra estudo</p>
+        <h3 id="RedesSociais">Entre em Contato:</h3>
+        <ul>
+            <li class="contato">
+                <img src="img/LinkedIn_Icon.png" alt="LinkedIn" class="icones">
+                <a class="link" href="https://www.linkedin.com/in/jo%C3%A3o-henrique-ara%C3%BAjo-dos-santos-9a0399217/" target="_blank">LinkedIn</a>
+            </li>
+            <li class="contato">
+                <img src="img/Github_icon.png" alt="GitHub" class="icones">
+                <a class="link" href="https://github.com/JoaoHAraujo" target="_blank">GitHub</a>
+            </li>
+            <li class="contato">
+                <img src="img/instagram_icon.png" alt="Instagram" class="icones">
+                <a class="link" href="https://www.instagram.com/jh.araujos/"> Instagram</a>
+            </li>
+        </ul>
     </aside>
+    <main>
+        <article>
+            <h2>Sobre mim:</h2>
+            <p class="paragrafo">Eu sou o <strong>João Araújo</strong>, tenho 26 anos, sou bacharel em Engenharia Civil e estudante do 3º período de <strong>Análise e Desenvolvimento de Sistemas</strong> pelo <abbr title="Instituto Federal do Piauí"><strong>IFPI</abbr> - Campus Picos</strong>. Completamente fascinado pela tecnologia, estou encontrando meu caminho nessa área tão vasta, interessante e dinâmica.</p>
+            <h2>Objetivos:</h2>
+            <p class="paragrafo">Reunir conhecimentos teóricos e práticos no desenvolvimento de sistemas de forma geral para aplicá-los no mercado. De forma mais específica, me aprofundar na área de criação de aplicações mobile para empresas e serviços, área essa que mais me chama atenção.</p>
+            <section>
+                <h3>Linguagens em foco:</h3>
+                <p class="paragrafo">A seguir estão listadas algumas linguagens que estudo no momento e algumas outras para as quais pretendo expandir os estudo em breve:</p>
+                <ul id="linguagens">
+                    <li>Em estudo:</li>
+                    <br>
+                    <ul>
+                        <li><abbr title="Python">Python</abbr></li>
+                        <li><abbr title="Hyper Text Markup Language">HTML5</abbr></li>
+                        <li><abbr title="Cascading Style Sheets">CSS3</abbr></li>
+                    </ul>
+                    <br>
+                    <li>Futuramente:</li>
+                    <br>
+                    <ul>
+                        <li><abbr title="JavaScript">JavaScript</abbr></li>
+                        <li><abbr title="Hypertext Preprocessor">PHP</abbr></li>
+                        <li><abbr title="Java">Java</abbr></li>
+                    </ul>
+                </ul>
+            </section>
+        </article>
+    </main>
     <footer>
-        <p>Formas de contato</p>
-        <p>João Araújo - 2021</p>
+        <p>Desenvolvido por <a href="https://github.com/JoaoHAraujo" target="_blank"><strong>João Araújo</strong></a> como projeto-portfólio para o <a href="https://www.ifpi.edu.br/" target="_blank" type="external"><strong>IFPI</strong></a>.</p>
     </footer>
 </body>
 </html>
