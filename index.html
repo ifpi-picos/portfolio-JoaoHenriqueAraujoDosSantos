@@ -11,12 +11,14 @@
 <body>
     <header>    
         <img src="img/avatar.png" alt="João Araújo" id="avatar">
-        <h1 id="titulo">João Henrique Araújo dos Santos</h1>
-        <p>Um resumo sobre minhas experiências, estudos e ambições acadêmicas e profissionais.</p>
+        <div id="intro">
+            <h1 id="titulo">João Henrique Araújo dos Santos</h1>
+            <p>Um resumo sobre minhas experiências, estudos e ambições acadêmicas e profissionais.</p>
+        </div>
     </header>
     <aside>
         <h3 id="RedesSociais">Entre em Contato:</h3>
-        <ul>
+        <ul id="SocialLinks">
             <li class="contato">
                 <img src="img/LinkedIn_Icon.png" alt="LinkedIn" class="icones">
                 <a class="link" href="https://www.linkedin.com/in/jo%C3%A3o-henrique-ara%C3%BAjo-dos-santos-9a0399217/" target="_blank">LinkedIn</a>
@@ -41,21 +43,26 @@
                 <h3>Linguagens em foco:</h3>
                 <p class="paragrafo">A seguir estão listadas algumas linguagens que estudo no momento e algumas outras para as quais pretendo expandir os estudo em breve:</p>
                 <ul id="linguagens">
-                    <li>Em estudo:</li>
+                    <div class="langList">
+                        <li>Em estudo:</li>
+                        <br>
+                        <ul class="listItems">
+                            <li><abbr title="Python">Python</abbr></li>
+                            <li><abbr title="Hyper Text Markup Language">HTML5</abbr></li>
+                            <li><abbr title="Cascading Style Sheets">CSS3</abbr></li>
+                        </ul>
+                    </div>
                     <br>
-                    <ul>
-                        <li><abbr title="Python">Python</abbr></li>
-                        <li><abbr title="Hyper Text Markup Language">HTML5</abbr></li>
-                        <li><abbr title="Cascading Style Sheets">CSS3</abbr></li>
-                    </ul>
-                    <br>
-                    <li>Futuramente:</li>
-                    <br>
-                    <ul>
-                        <li><abbr title="JavaScript">JavaScript</abbr></li>
-                        <li><abbr title="Hypertext Preprocessor">PHP</abbr></li>
-                        <li><abbr title="Java">Java</abbr></li>
-                    </ul>
+                    <div class="langList">
+                        <li>Futuramente:</li>
+                        <br>
+                        <ul class="listItems">
+                            <li><abbr title="JavaScript">JavaScript</abbr></li>
+                            <li><abbr title="Hypertext Preprocessor">PHP</abbr></li>
+                            <li><abbr title="Java">Java</abbr></li>
+                    
+                        </ul>
+                    </div>
                 </ul>
             </section>
         </article>
